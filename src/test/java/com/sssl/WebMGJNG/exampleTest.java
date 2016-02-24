@@ -33,7 +33,7 @@ public class exampleTest {
 	assertEquals("Google", driver.getTitle());
 	assertEquals("Marcus Roland Catt - Andover SP10 - full address - 192.com", 
 	  driver.findElement(By.linkText("Marcus Roland Catt - Andover SP10 - full address - 192.com")).getText());
-	    
+	System.out.println("searchTest Complete");    
   }
   @BeforeTest
   public void setUp() {
